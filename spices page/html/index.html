@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>spices page</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body class="bg_light_orange">
+    <header>
+        <div class="container">
+            <div class="position-absolute z-n1 top_5">
+                <p class="fw_bold fs_4xl color_grey mb-0 ">Fode</p>
+                <p class="fw_bold fs_4xl color_grey mb-0 ">cod</p>
+            </div>
+            <nav class="d-flex align-items-center justify-content-between ">
+                <div>
+                    <p class="fs_3xl fw_bold color_red mb-0 ">expice</p>
+                </div>
+                <ul class="d-flex p-0 mb-0 flex-column flex-lg-row nav_items">
+                    <li onclick="removenav()"><a class="color_navy_blue" href="#">Menu One</a></li>
+                    <li onclick="removenav()" class="ms-lg-4 mt-4 mt-lg-0"><a class="color_navy_blue" href="#">Menu Two</a></li>
+                    <li onclick="removenav()" class="ms-lg-4 mt-4 mt-lg-0"><a class="color_navy_blue" href="#">Menu Three</a></li>
+                    <li onclick="removenav()" class="ms-lg-4 mt-4 mt-lg-0"><a class="color_navy_blue" href="#">Menu Four</a></li>
+                    <div class="d-flex align-items-center z-1 d-lg-none mt-4 mt-lg-0#">
+                        <div>
+                            <img src="../assets/images/png/User icon.png" alt="user">
+                        </div>
+                        <div class="ms-2">
+                            <p class="fs_sm fw_small mb-0 color_white user_black">User</p>
+                        </div>
+                        <div class="ms-3">
+                            <img class="w-100" src="../assets/images/png/down.png" alt="down">
+                        </div>
+                    </div>
+                </ul>
+
+                <div class="d-flex align-items-center z-1 d-none d-lg-flex">
+                    <div>
+                        <img src="../assets/images/png/User icon.png" alt="user">
+                    </div>
+                    <div class="ms-2">
+                        <p class="fs_sm fw_small mb-0 color_white user_black">User</p>
+                    </div>
+                    <div class="ms-3">
+                        <img class="w-100" src="../assets/images/png/down.png" alt="down">
+                    </div>
+                </div>
+                <a class="d-flex flex-column d-lg-none" onclick="shownav()">
+                    <span class="line_nav"></span>
+                    <span class="line_nav my-1"></span>
+                    <span class="line_nav"></span>
+                </a>
+            </nav>
+            <div class="row align-items-center mt-5 pt-5 flex-sm-column-reverse flex-md-row flex-column-reverse">
+                <div class="col-md-6 col-10">
+                    <p class="color_navy_blue fw_bold fs_xxl">Discover Restaurant
+                        & Delicious Food</p>
+                    <div
+                        class="bg_white w_500 p_5_10 justify-content-between d-flex align-items-center w_md_394 w_lg_500 w_xsm_275">
+                        <div>
+                            <input class="input" type="text" placeholder="search restaurant, food">
+                        </div>
+                        <div>
+                            <a class="go_btn" href="#">GO</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 z-3 col-12">
+                    <img class="w-100" src="../assets/images/png/delicious food.png" alt="delicious food">
+                    <div class="set_crousel d-none">
+                        <img class="w-100 d-sm-none" src="../assets/images/png/carousel.png" alt="carousel">
+                    </div>
+                    <div class="position-absolute dot_set dot_none">
+                        <img src="../assets/images/png/Make Vector BG.png" alt="dot">
+                    </div>
+                </div>
+            </div>
+            <div class="position-absolute set_image d-sm-none d-lg-flex d-none">
+                <img class="patta_height" src="../assets/images/png/phla patta.png" alt="phla patta">
+            </div>
+        </div>
+        <div class="rajshahi_btn mt-sm-3 mt-md-0 mt-4">
+            <img class="mb-2 ms-4" src="../assets/images/png/location.png" alt="location">
+            <a class="fs_lg fw_medium color_white ms-2" href="#">Rajshahi</a>
+        </div>
+        <div class="red_bg red_bg_none"></div>
+    </header>
+
+    <section class="position-relative py-5">
+        <div class="container mt_150">
+            <div class="row align-items-start flex-column flex-sm-row">
+                <div class="col-sm-7 d-flex align-items-center">
+                    <div class="horizontal_line"></div>
+                    <div class="ms-3">
+                        <p class="fs_xxl fw_medium color_navy_blue mb-0">some top restaurant for
+                            dining in or Take away!</p>
+                    </div>
+                </div>
+                <div class="col-sm-5">
+                    <p class="color_brown fs_xsm fw_small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est,
+                        adipiscing cursus auctor eget sed phasellus senectus. Ut
+                        tellus donec vestibulum tristique leo bibendum in a, tincidunt. Volutpat metus id amet, nam hac
+                        magna accumsan. Nascetur
+                        ac tortor purus ultrices morbi tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Est, adipiscing cursus
+                        auctor eget sed.</p>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex align-items-center mt-5 pt-5 flex-column flex-sm-row">
+            <div class="position-relative overlay">
+                <img class="w_400 w_xsm_300" src="../assets/images/png/pizza.png" alt="pizza">
+                <div class="position-absolute position_set hide_text">
+                    <p class="fs_base fw_bold color_white mb-0 mt-5">Fire Water</p>
+                    <p class="fs_xsm fw_small w_380 color_white mb-0 mt-2">we are all about we are all about to the
+                        fullest and all content
+                        dining out or
+                        in!dining out or in!</p>
+                    <div class="d-flex">
+                        <div>
+                            <img class="w-100 mt-2" src="../assets/images/png/location.png" alt="#">
+                        </div>
+                        <div class="ms-2">
+                            <a class="fs_xsm fw_small d-inline-block color_white mt-2" href="#">New Market</a>
+                        </div>
+                    </div>
+                    <div class="text-end margin_right_10">
+                        <a class="fs_xsm fw_small d-inline-block book_now_btn" href="#">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="position-relative overlay ms-4 d-sm-none d-lg-flex d-none">
+                <img class="w_400" src="../assets/images/png/pizza.png" alt="pizza">
+                <div class="position-absolute position_set hide_text">
+                    <p class="fs_base fw_bold color_white mb-0 mt-5">The Wonton</p>
+                    <p class="fs_xsm fw_small w_380 color_white mb-0 mt-2">we are all about we are all about to the
+                        fullest and all content dining out or in!dining out or in!</p>
+                    <div class="d-flex">
+                        <div>
+                            <img class="w-100 mt-2" src="../assets/images/png/location.png" alt="#">
+                        </div>
+                        <div class="ms-2">
+                            <a class="fs_xsm fw_small d-inline-block color_white mt-2" href="#">Saheb Bazar</a>
+                        </div>
+                    </div>
+                    <div class="text-end margin_right_10">
+                        <a class="fs_xsm fw_small d-inline-block book_now_btn" href="#">Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <img class="ms_70" src="../assets/images/png/See More.png" alt="#">
+        </div>
+        <div class="position-absolute top_50 d-md-none d-lg-flex">
+            <img src="../assets/images/png/Make Vector BG.png" alt="Vector">
+        </div>
+    </section>
+
+
+    <section class="bgc_dark_orange min_height my-5 py-5 position-relative">
+        <div class="container d-flex justify-content-center align-items-center py-5">
+            <div class="card text-center">
+                <div class="vertical_line m-auto"></div>
+                <h2 class="color_navy_blue mt-3">advance booking</h2>
+                <div class="d-flex align-items-center mt-5 justify-content-between input_decorate mx-sm-auto">
+                    <div>
+                        <input class="border-0 outline_none" type="text" placeholder="search restaurant">
+                    </div>
+                    <div>
+                        <a class="btn_go" href="#">Go</a>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-around mt-5 flex-column flex-sm-row">
+                    <div class="d-flex flex-column">
+                        <div class="d-flex align-items-center">
+                            <p class="fs_sm fw_small mb-0">Date</p>
+                            <img class="object_fit" src="../assets/images/png/triangle.png" alt="triangle">
+                        </div>
+                        <div class="mt-2">
+                            <p class="fs_sm fw_small">23-09-2020</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column">
+                        <div class="d-flex align-items-center">
+                            <p class="fs_sm fw_small mb-0">Time</p>
+                            <img src="../assets/images/png/triangle.png" alt="triangle">
+                        </div>
+                        <div class="mt-2">
+                            <p class="fs_sm fw_small">5.00 pM</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <div class="d-flex align-items-center">
+                            <p class="fs_sm fw_small mb-0">Guests</p>
+                            <img src="../assets/images/png/triangle.png" alt="triangle">
+                        </div>
+                        <div class="mt-1">
+                            <p class="fs_sm fw_small">3 People</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="position-absolute plant_set dot_none">
+            <img class="w_400" src="../assets/images/png/big podha.png" alt="big podha">
+        </div>
+        <div class="position-absolute cabbage_set dot_none">
+            <img class="w-100" src="../assets/images/png/cabbage.png" alt="cabbage">
+        </div>
+    </section>
+
+    <section class="py-md-5 py-sm-0 py-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-5">
+                    <div class="d-flex align-items-center">
+                        <div>
+                            <div class="horizontal_line"></div>
+                        </div>
+                        <div class="ms-2">
+                            <p class="fs_xxl color_navy_blue fw_medium">Our Services</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-7">
+                    <p class="color_brown fs_xsm fw_small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est,
+                        adipiscing cursus auctor eget sed phasellus senectus. Ut
+                        tellus donec vestibulum tristique leo bibendum in a, tincidunt. Volutpat metus id amet, nam hac
+                        magna accumsan. Nascetur
+                        ac tortor purus ultrices morbi tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Est, adipiscing cursus
+                        auctor eget sed.</p>
+                </div>
+            </div>
+
+            <div class="row my-5 py-5 position-relative justify-content-between">
+                <div class="col-lg-7 col-12">
+                    <div class="d-flex align-items-center flex-column flex-sm-row">
+                        <div class="orange_box">
+                            <img class="w-100" src="../assets/images/png/man sitting.png" alt="man sitting">
+                        </div>
+                        <div class="ms_100">
+                            <p class="fs_base fw_medium color_navy_blue mb-0">advanced table booking</p>
+                            <p class="fs_xsm fw_small color_brown">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit.</p>
+                            <div class="position-absolute left_arrow_set position_images_none d-lg-none d-xl-flex">
+                                <img src="../assets/images/png/left arriow.png" alt="left arriow">
+                            </div>
+                            <div class="small_line position-absolute position_images_none d-lg-none d-xl-flex"></div>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center mt-5 flex-column-reverse flex-sm-row">
+                        <div>
+                            <p class="fs_base fw_medium color_navy_blue mb-0">Food For free</p>
+                            <p class="fs_base fw_medium color_navy_blue mb-0 ms_96">24/7</p>
+                            <p class="fs_xsm fw_small color_brown w_199 mt-2">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing
+                                elit.</p>
+                        </div>
+                        <div class="orange_box ms_100">
+                            <img class="w-100" src="../assets/images/png/man sitting.png" alt="man sitting">
+                        </div>
+                        <div class="position-absolute right_set position_images_none d-lg-none d-xl-flex">
+                            <img src="../assets/images/png/right.png" alt="right">
+                        </div>
+                        <div class="line_2 position-absolute position_images_none d-lg-none d-xl-flex"></div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-9 mx-auto col-12 mt-4 mt-sm-0">
+                    <div class="orange_2">
+                        <img class="w-100" src="../assets/images/png/scooter.png" alt="scooter">
+                        <p class="fs_base fw_medium color_navy_blue mb-0 mt-5">free home delivery
+                            at your door steps</p>
+                        <p class="fs_xsm fw_small color_brown mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit.
+                        </p>
+                    </div>
+                    <div class="position-absolute dotted_set d-sm-none d-lg-flex">
+                        <img class="w-100" src="../assets/images/png/dotted.png" alt="dotted">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="my-5">
+        <div class="container mt-md-5 py-md-5 mt-sm-0 py-sm-0">
+            <h2 class="text-center color_navy_blue">Explore Our Foods</h2>
+            <p class="fs_xsm fw_small color_brown max_width text-center mx-auto">Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Est, adipiscing cursus auctor eget sed phasellus senectus. Ut
+                tellus donec vestibulum tristique leo bibendum in a, tincidunt. Volutpat metus id amet.</p>
+            <div class="row my-5 justify-content-center">
+                <div class="col-lg-4 col-md-6 col-sm-10">
+                    <img class="w-100" src="../assets/images/png/sandwitch.png" alt="#">
+                    <div class="card_1">
+                        <div class="d-flex justify-content-between">
+                            <p class="fs_base fw_medium color_navy_blue">Hand Sandwich</p>
+                            <div>
+                                <p class="fs_base fw_bold color_red">$10.25</p>
+                            </div>
+                        </div>
+                        <p class="mb-0 fs_xsm fw_small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est,
+                            adipiscing.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-10 mt-sm-3 mt-md-0 mt-4">
+                    <img class="w-100" src="../assets/images/png/burger.png" alt="#">
+                    <div class="card_1">
+                        <div class="d-flex justify-content-between">
+                            <p class="fs_base fw_medium color_navy_blue">Burger</p>
+                            <div>
+                                <p class="fs_base fw_bold color_red">$10.25</p>
+                            </div>
+                        </div>
+                        <p class="mb-0 fs_xsm fw_small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est,
+                            adipiscing.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-md-3 col-sm-10 mt-sm-3 mt-md-0 mt-4 mt-lg-0">
+                    <img class="w-100" src="../assets/images/png/french fries.png" alt="#">
+                    <div class="card_1">
+                        <div class="d-flex justify-content-between">
+                            <p class="fs_base fw_medium color_navy_blue">French fries</p>
+                            <div>
+                                <p class="fs_base fw_bold color_red">$10.25</p>
+                            </div>
+                        </div>
+                        <p class="mb-0 fs_xsm fw_small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est,
+                            adipiscing.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-md-3 col-sm-10 mt-sm-3 mt-md-0 mt-4">
+                    <img class="w-100" src="../assets/images/png/4.png" alt="#">
+                    <div class="card_1">
+                        <div class="d-flex justify-content-between">
+                            <p class="fs_base fw_medium color_navy_blue">Hand Sandwich</p>
+                            <div>
+                                <p class="fs_base fw_bold color_red">$10.25</p>
+                            </div>
+                        </div>
+                        <p class="mb-0 fs_xsm fw_small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est,
+                            adipiscing.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-md-3 col-sm-10 mt-sm-3 mt-md-0 mt-4">
+                    <img class="w-100" src="../assets/images/png/cake.png" alt="#">
+                    <div class="card_1">
+                        <div class="d-flex justify-content-between">
+                            <p class="fs_base fw_medium color_navy_blue">cake</p>
+                            <div>
+                                <p class="fs_base fw_bold color_red">$10.25</p>
+                            </div>
+                        </div>
+                        <p class="mb-0 fs_xsm fw_small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est,
+                            adipiscing.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-md-3 col-sm-10 mt-sm-3 mt-md-0 mt-4">
+                    <img class="w-100" src="../assets/images/png/pakoda.png" alt="#">
+                    <div class="card_1">
+                        <div class="d-flex justify-content-between">
+                            <p class="fs_base fw_medium color_navy_blue">pakoda</p>
+                            <div>
+                                <p class="fs_base fw_bold color_red">$10.25</p>
+                            </div>
+                        </div>
+                        <p class="mb-0 fs_xsm fw_small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est,
+                            adipiscing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="position-relative overflow-hidden bgc_dark_orange">
+        <div class="container">
+            <div class="row align-items-center justify-content-between flex-sm-column-reverse flex-md-row">
+                <div class="col-md-5 col-sm-10 col-12">
+                    <div class="d-flex">
+                        <div class="horizontal_line"></div>
+                        <div class="ms-4">
+                            <h1 class="color_navy_blue fw_medium">Download app for
+                                Exciting Deals
+                            </h1>
+                            <p class="color_brown fs_xsm fw_smallmt-2 ">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing
+                                elit. Est, adipiscing
+                                cursus auctor eget sed phasellus senectus. Ut
+                                tellus donec vestibulum tristique leo bibendum in a, tincidunt.</p>
+                            <div class="d-flex">
+                                <div class="button d-flex align-items-center justify-content-around">
+                                    <div>
+                                        <img src="../assets/images/png/play store.png" alt="play store">
+                                    </div>
+                                    <div>
+                                        <p class="fw_small fs_xsm mb-0 color_white">play store</p>
+                                        <p class="fs_xsm fw_medium mb-0 color_white">google Play</p>
+                                    </div>
+                                </div>
+                                <div class="button d-flex align-items-center justify-content-around ms-4">
+                                    <div>
+                                        <img src="../assets/images/png/apple.png" alt="apple">
+                                    </div>
+                                    <div>
+                                        <p class="fw_small fs_xsm mb-0 color_white">Download on the</p>
+                                        <p class="fs_xsm fw_medium mb-0 color_white">App Store</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-10 col-12">
+                    <img class="w-100" src="../assets/images/png/bgc.png" alt="bgc">
+                </div>
+                <div class="position-absolute set_patte">
+                    <img height="500px" width="600px" src="../assets/images/png/last patta.png" alt="last patta">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="pt-5 pb-2 position-relative">
+        <div class="container pb-2">
+            <div class="max_width_534 fs_xl fw_small mx-auto">
+                <p class="mb-0 text-center color_navy_blue fs_xl fw_small">Get notified</p>
+                <p class="mb-0 color_navy_blue fs_xl fw_small">about new amazing products</p>
+            </div>
+            <div class="text-center mt-4">
+                <p class="mb-0 fs_xsm fw_small color_brown">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                <p class="mb-0 fs_xsm fw_small color_brown"> elit. Est, adipiscing cursus auctor eget sed
+                    phasellus senectus.
+                </p>
+            </div>
+            <div
+                class="width_544 d-flex justify-content-between mt-5 rounded-5 align-items-center mx-auto p_5_15 w_xsm_300">
+                <div>
+                    <input class="input" type="email" placeholder="E-mail">
+                </div>
+                <div class="circle_icon">
+                    <img src="../assets/images/png/icon.png" alt="icon">
+                </div>
+            </div>
+            <ol class="d-flex justify-content-center mt-5 flex-column flex-sm-row text-center text-sm-start">
+                <li><a class="color_brown" href="#">Product</a></li>
+                <li class="mt-3 mt-sm-0"><a class="color_brown ms-0 ms-sm-5" href="#">Company</a></li>
+                <li class="mt-3 mt-sm-0"><a class="color_brown ms-0 ms-sm-5" href="#">Learn More</a></li>
+                <li class="mt-3 mt-sm-0"><a class="color_brown ms-0 ms-sm-5" href="#">Get In Touch</a></li>
+            </ol>
+            <div class="mt-5 d-flex align-items-center justify-content-end pt-5">
+                <div>
+                    <a href="#"><img src="../assets/images/png/Social Icon.png" alt="#"></a>
+                </div>
+                <div class="ms-5">
+                    <p class="mb-0 fs-xsm fw_small">2020 Expice Studio</p>
+                </div>
+            </div>
+        </div>
+        <div class="position-absolute footer_set d-sm-none d-lg-flex d-none">
+            <img class="max_width_380" height="550px" src="../assets/images/png/footer image.png" alt="footer image">
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="../assets/app.js"></script>
+</body>
+
+</html>

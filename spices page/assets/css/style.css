@@ -1,0 +1,429 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none !important;
+  box-sizing: border-box !important;
+  text-decoration: none !important;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #db1212;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+:root {
+  /* ********** Font size**************** */
+  --fs_xsm: 14px;
+  --fs_sm: 16px;
+  --fs_md: 18px;
+  --fs_base: 24px;
+  --fs_lg: 30px;
+  --fs_xl: 36px;
+  --fs_xxl: 48px;
+  --fs_3xl: 72px;
+  --fs_4xl: 200px;
+
+  /* ********** Font weight**************** */
+  --fw_small: 400;
+  --fw_medium: 500;
+  --fw_semibold: 600;
+  --fw_bold: 700;
+  --fw_xl_bold: 900;
+  /* ********** Font color**************** */
+  --color_light_orange: #fff5ec;
+  --color_red: #fe043c;
+  --color_navy_blue: #2e266f;
+  --color_grey: #f5ebe6;
+  --color_white: #fff;
+  --color_brown: #707070;
+  --color_dark_orange: #ffedde;
+}
+/* ********** Font color**************** */
+.color_grey {
+  color: var(--color_grey);
+}
+.bgc_dark_orange {
+  background-color: var(--color_dark_orange);
+}
+.color_brown {
+  color: var(--color_brown);
+}
+.bg_white {
+  background-color: var(--color_white);
+}
+.bg_red {
+  background-color: var(--color_red);
+}
+.bg_light_orange {
+  background-color: var(--color_light_orange);
+}
+.color_red {
+  color: var(--color_red);
+}
+.color_white {
+  color: var(--color_white);
+}
+.color_navy_blue {
+  color: var(--color_navy_blue);
+}
+/* ********** Font weight**************** */
+.fw_small {
+  font-weight: var(--fw_small);
+}
+.fw_medium {
+  font-weight: var(--fw_medium);
+}
+.fw_semibold {
+  font-weight: var(--fw-semibold);
+}
+.fw_bold {
+  font-weight: var(--fw_bold);
+}
+.fw_xl_bold {
+  font-weight: var(--fw_xl_bold);
+}
+/* ********** Font size**************** */
+.fs_xsm {
+  font-size: var(--fs_xsm);
+}
+.fs_sm {
+  font-size: var(--fs_sm);
+}
+.fs_md {
+  font-size: var(--fs_md);
+}
+.fs_base {
+  font-size: var(--fs_base);
+}
+.fs_lg {
+  font-size: var(--fs_lg);
+}
+.fs_xl {
+  font-size: var(--fs_xl);
+}
+.fs_xxl {
+  font-size: var(--fs_xxl);
+}
+.fs_3xl {
+  font-size: var(--fs_3xl);
+}
+.fs_4xl {
+  font-size: var(--fs_4xl);
+}
+.red_bg::after {
+  position: absolute;
+  content: "";
+  height: 130vh;
+  width: 330px;
+  background-color: #fe043c;
+  top: 0;
+  right: 0;
+}
+.top_5 {
+  top: 5%;
+}
+.patta_height {
+  height: 330px;
+  width: 330px;
+}
+.set_image {
+  top: 15%;
+  right: 13%;
+  z-index: 2;
+}
+
+.input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.w_500 {
+  width: 500px;
+}
+
+.p_5_10 {
+  padding: 5px 10px;
+}
+
+.go_btn {
+  color: white;
+  background-color: #fe043c;
+  padding: 21px 75px;
+  display: inline-block;
+  border-radius: 60px 0px 0px 0px;
+}
+
+.rajshahi_btn {
+  position: absolute;
+  background-color: #fe043c;
+  display: inline-block;
+  padding: 15px 45px;
+  left: 0;
+  border-radius: 0px 100px 100px 0px;
+}
+
+.set_crousel {
+  right: 5%;
+  position: absolute;
+}
+
+.dot_set {
+  top: 40%;
+  z-index: -1;
+}
+
+.horizontal_line {
+  width: 25px;
+  height: 100px;
+  background: #fe043c;
+}
+
+.mt_150 {
+  margin-top: 150px;
+}
+
+.w_400 {
+  width: 400px;
+}
+
+.dot_seting {
+  top: 31%;
+}
+
+.overlay::after {
+  position: absolute;
+  content: "";
+  background-color: #fe043c;
+  bottom: 0%;
+  left: 0%;
+  width: 100%;
+  height: 45%;
+  opacity: 0;
+}
+.overlay:hover::after {
+  opacity: 0.7;
+}
+
+.w_380 {
+  width: 380px;
+}
+
+.position_set {
+  bottom: 3%;
+  z-index: 1;
+  padding: 0px 15px;
+}
+
+.book_now_btn {
+  border-radius: 100px 0px 0px 100px;
+  background: #fff;
+  padding: 10px 50px;
+  color: #fe043c;
+}
+
+.margin_right_10 {
+  margin-right: -10px;
+}
+
+.top_50 {
+  top: 50%;
+  right: 37%;
+  z-index: -1;
+}
+
+.ms_70 {
+  margin-left: 70px;
+}
+
+.min_height {
+  min-height: 90vh;
+}
+
+.card {
+  background-color: #fff;
+  padding: 48px;
+  width: 900px;
+  z-index: 3;
+}
+
+.vertical_line {
+  width: 230px;
+  height: 15px;
+  background: #fe043c;
+}
+
+.outline_none {
+  outline: none;
+}
+
+.input_decorate {
+  background: #fff;
+  width: 400px;
+  border-radius: 10px;
+  padding: 10px 30px;
+  box-shadow: 2px 2px 30px 2px #fff5ec;
+}
+
+.btn_go {
+  background: #fe043c;
+  color: #fff;
+  padding: 16px 39px;
+  display: inline-block;
+}
+
+.object_fit {
+  object-fit: contain;
+}
+
+.plant_set {
+  bottom: -20%;
+  left: 0;
+}
+.cabbage_set {
+  right: 0;
+  top: 5%;
+}
+
+.orange_box {
+  padding: 80px;
+  background-color: #ffedde;
+}
+
+.small_line {
+  width: 84px;
+  height: 3px;
+  background-color: #fe043c;
+  top: 26%;
+  right: 45%;
+}
+
+.ms_100 {
+  margin-left: 150px;
+}
+
+.orange_2 {
+  background-color: #ffedde;
+  padding: 100px 74px 50px 74px;
+}
+
+.ms_96 {
+  margin-left: 96px;
+}
+
+.w_199 {
+  width: 199px;
+}
+
+.left_arrow_set {
+  left: 21%;
+  top: 25%;
+}
+.right_set {
+  bottom: 28%;
+  left: 15%;
+}
+.hide_text {
+  opacity: 0;
+}
+.hide_text:hover {
+  opacity: 1;
+}
+
+.line_2 {
+  width: 84px;
+  height: 3px;
+  background-color: #fe043c;
+  bottom: 29%;
+  left: 1%;
+}
+
+.dotted_set {
+  top: -15%;
+  left: 0;
+  z-index: -1;
+}
+.max_width {
+  max-width: 600px;
+}
+
+.card_1 {
+  background-color: #fff;
+  box-shadow: 0 4px 4px rgba(235, 241, 245, 0.5);
+  padding: 10px;
+}
+
+.button {
+  border-radius: 10px;
+  background: #000;
+  width: 178px;
+  height: 49px;
+}
+
+.set_patte {
+  left: 35%;
+  z-index: -1;
+}
+
+.max_width_534 {
+  max-width: 534px;
+}
+
+.input {
+  outline: none;
+  border: none;
+}
+
+.circle_icon {
+  height: 50px;
+  width: 50px;
+  background-color: #fe043c;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.width_544 {
+  width: 500px;
+  background-color: #fff;
+}
+
+.p_5_15 {
+  padding: 5px 15px;
+}
+
+.footer_set {
+  top: 0;
+  left: 0;
+}
+
+.max_width_380 {
+  max-width: 380px;
+}
+
+.line_nav {
+  width: 25px;
+  height: 3px;
+  background-color: #000;
+}
+
+.nav_items {
+  position: fixed;
+  width: 80%;
+  min-height: 85vh;
+  bottom: 0;
+  left: -100%;
+  background-color: #fe043c;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+  transition: 500ms;
+}
+
+.shownav {
+  left: 0;
+}

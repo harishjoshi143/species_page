@@ -1,0 +1,145 @@
+@media (max-width: 576px) {
+  :root {
+    --fs_xsm: 10px;
+    --fs_sm: 16px;
+    --fs_md: 18px;
+    --fs_base: 24px;
+    --fs_lg: 30px;
+    --fs_xl: 19px;
+    --fs_xxl: 21px;
+    --fs_3xl: 72px;
+    --fs_4xl: 120px;
+  }
+
+  .input_decorate {
+    background: #fff;
+    width: 0;
+    border-radius: 10px;
+    padding: 0;
+    box-shadow: 2px 2px 30px 2px #fff5ec;
+}
+  .btn_go {
+    background: #fe043c;
+    color: #fff;
+    padding: 7px 9px;
+    display: inline-block;
+  }
+
+  .w_xsm_300 {
+    width: 300px;
+  }
+  .button {
+    border-radius: 10px;
+    background: #000;
+    width: 120px;
+    height: 49px;
+  }
+  .go_btn {
+    color: white;
+    background-color: #fe043c;
+    padding: 5px 16px;
+    display: inline-block;
+    border-radius: 60px 0px 0px 0px;
+  }
+  .w_xsm_275 {
+    width: 275px;
+  }
+  .rajshahi_btn {
+    position: absolute;
+    background-color: #fe043c;
+    display: inline-block;
+    padding: 6px 20px;
+    left: 0;
+    border-radius: 0px 100px 100px 0px;
+  }
+}
+
+/* *************** min-width=576px********************* */
+@media (min-width: 576px) {
+  :root {
+    --fs_xsm: 9px;
+    --fs_sm: 16px;
+    --fs_md: 18px;
+    --fs_base: 24px;
+    --fs_lg: 30px;
+    --fs_xl: 34px;
+    --fs_xxl: 20px;
+    --fs_3xl: 72px;
+    --fs_4xl: 200px;
+  }
+}
+
+/* *************** min-width=768px********************* */
+@media (min-width: 768px) {
+  :root {
+    --fs_xsm: 10px;
+    --fs_sm: 16px;
+    --fs_md: 18px;
+    --fs_base: 24px;
+    --fs_lg: 30px;
+    --fs_xl: 36px;
+    --fs_xxl: 30px;
+    --fs_3xl: 72px;
+    --fs_4xl: 200px;
+  }
+
+  .w_md_394 {
+    width: 394px;
+  }
+}
+/* *************** max-width=992px********************* */
+
+@media (max-width: 992px) {
+  .dot_none {
+    display: none;
+  }
+  .position_images_none {
+    display: none;
+  }
+
+}
+/* *************** min-width=992px********************* */
+@media (min-width: 992px) {
+  :root {
+    --fs_xsm: 12px;
+    --fs_sm: 16px;
+    --fs_md: 18px;
+    --fs_base: 20px;
+    --fs_lg: 30px;
+    --fs_xl: 36px;
+    --fs_xxl: 42px;
+    --fs_3xl: 72px;
+    --fs_4xl: 200px;
+  }
+  .w_lg_500 {
+    width: 500px;
+  }
+
+  .nav_items{
+    all: unset;
+  }
+}
+
+/* *************** max-width=1200px********************* */
+@media (max-width: 1200px) {
+  .red_bg_none {
+    display: none;
+  }
+  .user_black {
+    color: black;
+  }
+}
+/* *************** min-width=1200px********************* */
+@media (min-width: 1200px) {
+  :root {
+    --fs_xsm: 14px;
+    --fs_sm: 16px;
+    --fs_md: 18px;
+    --fs_base: 24px;
+    --fs_lg: 30px;
+    --fs_xl: 36px;
+    --fs_xxl: 48px;
+    --fs_3xl: 72px;
+    --fs_4xl: 200px;
+  }
+}
